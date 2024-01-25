@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		/* https://www.totaltypescript.com/tsconfig-cheat-sheet */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "ES2022",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"noEmit": true, // Remix takes care of building everything in `remix build`.
+
+		"lib": ["DOM", "DOM.Iterable", "ES2022"],
+		"jsx": "react-jsx",
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./app/*"]
+		}
+	},
+	"include": ["env.d.ts", "**/*.ts", "**/*.tsx"]
+}

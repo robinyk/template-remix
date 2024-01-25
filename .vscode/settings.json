@@ -1,0 +1,34 @@
+{
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"cSpell.words": [
+		"ianvs"
+	],
+	"debug.javascript.autoAttachFilter": "disabled",
+	"debug.javascript.codelens.npmScripts": "never",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.snippetSuggestions": "top",
+	"eslint.enable": true,
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+	"files.associations": { "*.css": "tailwindcss" },
+	"javascript.suggest.paths": false,
+	"prettier.configPath": "prettier.config.cjs",
+	"prettier.useEditorConfig": false,
+	"tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+	"typescript.preferences.includePackageJsonAutoImports": "on",
+	"typescript.suggest.paths": false,
+	"versionlens.suggestions.showOnStartup": true
+}
