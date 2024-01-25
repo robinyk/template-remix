@@ -4,7 +4,7 @@
 
 @layer base {
 	body {
-		@apply bg-background text-foreground relative flex min-h-screen flex-col;
+		@apply relative flex min-h-screen flex-col;
 
 		header {
 			@apply sticky top-0 z-50 w-full border-b drop-shadow;
