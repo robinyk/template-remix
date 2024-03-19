@@ -7,11 +7,7 @@ module.exports = {
 	singleQuote: true,
 	jsxSingleQuote: true,
 	trailingComma: 'none',
-	plugins: [
-		'@ianvs/prettier-plugin-sort-imports',
-		'prettier-plugin-sort-json',
-		'prettier-plugin-tailwindcss'
-	],
+	plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-sort-json', 'prettier-plugin-tailwindcss'],
 	importOrder: ['^node:', '', '<BUILT_IN_MODULES>', '<THIRD_PARTY_MODULES>', '', '^(@\\/)', '', '^[~]', '', '^[.]'],
 	importOrderTypeScriptVersion: '5.3.2'
 }
