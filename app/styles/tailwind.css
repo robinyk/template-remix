@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap') layer(base);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,5 +15,29 @@
 		main {
 			@apply flex-1;
 		}
+	}
+
+	h1 {
+		@apply text-5xl;
+	}
+
+	h2 {
+		@apply text-4xl;
+	}
+
+	h3 {
+		@apply text-3xl;
+	}
+
+	h4 {
+		@apply text-2xl;
+	}
+
+	h5 {
+		@apply text-xl;
+	}
+
+	h6 {
+		@apply text-lg;
 	}
 }
